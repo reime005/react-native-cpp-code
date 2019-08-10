@@ -8,8 +8,8 @@ SOURCES := $(shell find $(SRC_DIR) -type f -name "*.$(SRCEXT)")
 LIBNAME := librncpp-example.so
 
 override INC += -I$(INC_DIR)
-override CFLAGS += -std=c++14 -O3 -Wall
-override LDFLAGS += -std=c++14 -O3 -Wall
+override CFLAGS += -std=c++11 -O3 -Wall
+override LDFLAGS += -std=c++11 -O3 -Wall
 
 LDLIBS :=
 
